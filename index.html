@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/home.css">
+  <title>Home | Divulgaci</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <main class="container-fluid" style="padding: 0;">
+    <nav class="container navbar navbar-expand-lg">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img src="./src/assets/logo-divulci.svg" alt="Logo marca divulgaci" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#knowcientist">Conheça sua nova mentora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#modules">o que você vai aprender</a>
+            </li>
+          </ul>
+          <a href="#" class="p-2 btn-custom-login">Login</a>
+        </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="container-sm container-md container-lg hero-container">
+        <div class="hero-description">
+          <h1>Conectando Saberes</h1>
+          <p>Curso de divulgação científica para você que acredita que ciência e empreendedorismo podem andar juntos.
+          </p>
+          <button type="button" class="btn-hero-button">Inscreva-se agora</button>
+        </div>
+        <img class="d-none d-lg-block" src="./src/assets/hero-img.png" alt="">
+        <img class="d-lg-none" src="./src/assets/hero-img-mobile.png" alt="">
+      </div>
+    </section>
+    <section class="container-sm container-md container-lg know-cientist-container" id="knowcientist">
+      <div>
+        <img class="d-none d-lg-block" src="./src/assets/search-img.png" alt="" srcset="">
+        <img class="d-lg-none" src="./src/assets/search-img-mobile.png" alt="" srcset="">
+      </div>
+      <div class="know-cientist-description">
+        <div class="know-cientist-header">
+          <img src="./src/assets/know-icon.svg" alt="">
+          <p>Conheça a pesquisa e os pesquisadores</p>
+        </div>
+        <p>
+          Jornalista com atuação corporativa e foco em Inovação, CX e transformação digital, professora universitária e
+          <strong>mestranda em Comunicação pelo PPGComPro UFMA,
+            com Investigação em Divulgação Científica</strong> pela Universidade Federal do Maranhão.
+          Especialista em Assessoria de Comunicação,
+          co-autora do livro Relacionamídia: Manual de Relacionamento com a Mídia,
+          voltado para pesquisadores maranhenses, pela Editora Fapema.
+        </p>
+
+        <div class="certifications">
+          <img src="./src/assets/PPGCOM.svg" alt="">
+          <img src="./src/assets/UFMA.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="modules p-4" id="modules">
+      <div class="container-sm container-md container-lg modules-container">
+        <div class="modules-itens-container col-4 col-lg-6">
+          <p>O que você terá no curso:</p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item mb-2 rounded-2">
+              <h2 class="accordion-header p-2">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Módulo 1 - Introdução à Divulgação Científica
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odio esse optio, exercitationem magni
+                  consequatur aut, vitae perspiciatis dignissimos sunt sit doloremque temporibus quibusdam veritatis
+                  laboriosam quam facilis eaque labore?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2 rounded-2 ">
+              <h2 class="accordion-header p-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Módulo 2 - Canais de Divulgação Científica
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta dignissimos quia porro dolore
+                  praesentium accusamus, iste magni facilis quidem recusandae sapiente facere quam ipsum maiores quos
+                  totam ullam eaque!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2 rounded-2">
+              <h2 class="accordion-header p-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Módulo 3 - Como Comunicar Ciência de Forma Acessível
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sit nobis, soluta quia mollitia cum
+                  facilis placeat veniam expedita esse enim distinctio consequatur itaque at exercitationem error quas!
+                  Dolorum, nam!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2 rounded-2">
+              <h2 class="accordion-header p-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Módulo 4 - Ética na Divulgação Científica
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sit nobis, soluta quia mollitia cum
+                  facilis placeat veniam expedita esse enim distinctio consequatur itaque at exercitationem error quas!
+                  Dolorum, nam!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2 rounded-2">
+              <h2 class="accordion-header p-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Módulo 5 - Projeto Final e Certificado
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sit nobis, soluta quia mollitia cum
+                  facilis placeat veniam expedita esse enim distinctio consequatur itaque at exercitationem error quas!
+                  Dolorum, nam!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modules-image">
+          <img class="d-none d-lg-block" src="./src/assets/modules-image.png" alt="">
+          <img class="d-lg-none" src="./src/assets/modules-image-mobile.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="container-sm container-md container-lg p-4 certification-container">
+      <div class="certification-image">
+        <img class="d-none d-lg-block" src="./src/assets/certificarion-home.png" alt="">
+        <img class="d-lg-none" src="./src/assets/certificarion-home-mobile.png" alt="">
+      </div>
+      <div class="certification-description">
+        <div class="certification-header">
+          <img src="./src/assets/certification-icon.svg" width="48" height="40" alt="">
+          <p>Conquiste seu certificado</p>
+        </div>
+        <p>São vídeos curtos e diretos, com material didático gratuito para download, tudo a seu alcance.</p>
+        <button type="button" class="btn-certification">
+          Quero meu certificado
+          <img src="./src/assets/arrow-right.svg" alt="">
+        </button>
+      </div>
+    </section>
+    <footer class="container-fluid footer-container p-4">
+      <div class="container footer-itens">
+        <a class="" href="#">
+          <img src="./src/assets/logo-divulci-white.svg" alt="" srcset="">
+        </a>
+        <a class="btn-scroll-top" href="#top">
+          <img src="./src/assets/arrow-up.svg" alt="">
+        </a>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
