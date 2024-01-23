@@ -245,8 +245,6 @@ body {
 }
 
 .modules-image {
-  width: 30.25rem;
-  height: 33.25rem;
   flex-shrink: 0;
   border-radius: 0.625rem;
 }
