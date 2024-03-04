@@ -1,0 +1,62 @@
+body {
+  font-family: 'Outfit'
+}
+.border-purple {
+  border: 1px solid var(--Primary-300, #533EE8);
+}
+
+.login-title {
+  color: var(--Text-color-300, #241442);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  /* 166.667% */
+  letter-spacing: 0.12rem;
+}
+
+.custom-input>span {
+  background: transparent;
+}
+
+.custom-input>input {
+  background: transparent;
+}
+
+.icon-violet-color {
+  color: #533EE880;
+}
+
+.btn-login {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 3.125rem;
+  background: var(--Primary-300, #533EE8);
+  /* Sombra 1 */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.30), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+
+  color: #FFF;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  /* 200% */
+  letter-spacing: 0.1rem;
+}
+
+.link-color {
+  color: var(--Primary-300, #533EE8);
+}
+
+.register-text {
+  font-family: 'Outfit';
+  color: #241442;
+}
+
+.register-text > a {
+  text-decoration: none;
+}
