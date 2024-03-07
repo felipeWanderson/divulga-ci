@@ -1,0 +1,96 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 1px solid var(--Text-color-300, #241442);
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-description > strong {
+  color: var(--Text-color-300, #241442);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 1.875rem */
+} 
+
+.card-description > span {
+  color: var(--Text-color-300, #241442);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+}
+
+.card-description > a {
+  color: var(--Text-color-300, #241442);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 1.3125rem */
+
+  text-decoration: none;
+}
+
+.form-upload-notices {
+  width: 100%;
+  height: 100%;
+}
+
+.upload-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.625rem;
+border: 1px dashed #C9C9C9;
+
+background: #EFEFEF;
+}
+
+.upload-button > input[type="file"] {
+  display: none;
+}
+
+.upload-button > label {
+  cursor: pointer;
+
+  color: rgba(36, 20, 66, 0.50);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 175% */
+}
+
+.upload-button > label:hover {
+  text-decoration: underline;
+}
+
+.upload-icon {
+  font-size: 2rem;
+
+  color: rgba(36, 20, 66, 0.50);
+}
+
+.notice-text {
+  color: var(--Text-color-300, #241442);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+@media screen and (max-width: 320px) {
+  .icon-etc {
+    display: none;
+  }
+}
