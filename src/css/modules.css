@@ -38,7 +38,6 @@
 }
 
 .description-content > p {
-  max-width: 35rem;
   margin-top: 1rem;
   color: var(--Text-color-300, #241442);
   font-size: 1.25rem;
@@ -93,6 +92,22 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.active-module {
+  background-color: #EFEFEF;
+}
+
+.text-modules {
+  text-decoration: none;
+  color: #241442;
+  font-size: 1rem;
+  line-height: 120%;
+} 
+
+.text-modules:hover {
+  text-decoration: underline;
+  color: #533EE8;
 }
 
 @media screen and (max-width: 1024px) {
